@@ -16,3 +16,21 @@ spreadsheet-app/
 ├── package.json            # Dependencies
 
 └── README.md               # Setup instructions
+# React Spreadsheet Engine
+
+A lightweight Excel-like grid with formula support and dependency tracking.
+
+## Features
+- **Formula Evaluation:** Supports arithmetic like `=A1+B1*2`.
+- **Dependency Tracking:** Automatically updates dependent cells.
+- **Circular Detection:** Displays `#CIRCULAR` to prevent infinite loops.
+- **Error Handling:** Displays `#ERROR` for malformed math.
+
+## Tech Stack
+- React
+- Mathjs (for expression parsing)
+- Vite
+
+## How to Run
+1. `npm install`
+2. `npm run dev`
