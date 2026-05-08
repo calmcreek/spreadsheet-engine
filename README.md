@@ -1,5 +1,6 @@
 # spreadsheet-engine
 spreadsheet-app/
+
 ├── src/
 
 │   ├── App.jsx             # Main Layout & State Management
